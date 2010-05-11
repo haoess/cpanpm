@@ -2410,7 +2410,7 @@ distribution.
 =item patches [array]
 
 An array of patches on CPAN or on the local disk to be applied in
-order via an external patch program. If the value for the C<-p>
+order via an external patch program. Whether the value for the C<-p>
 parameter is C<0> or C<1> is determined by reading the patch
 beforehand. The path to each patch is either an absolute path on the
 local filesystem or relative to a patch directory specified in the
